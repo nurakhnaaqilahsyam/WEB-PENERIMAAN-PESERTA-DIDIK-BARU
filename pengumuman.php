@@ -88,6 +88,14 @@ $conn->close();
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <script>
+    document.querySelector("form").addEventListener("submit", function(event) {
+        var nisn = document.querySelector("input[name='nisn']").value;
+        if (nisn.trim() === "") {
+            alert("Please fill out this field.");
+            event.preventDefault(); // Mencegah form disubmit
+        }
+    });
+</script>
 </body>
 </html>
