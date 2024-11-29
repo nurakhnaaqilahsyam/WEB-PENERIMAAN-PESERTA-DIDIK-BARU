@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f8;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.img-facility {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 60px; 
+    height: auto; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+    position: relative; 
+    top: -5px; 
+}
+
+header {
+    text-align: center;
+    background-image: url('biru.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    padding: 60px 0;
+}
+
+.welcome-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-box h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0056b3;
+}
+
+.welcome-box p {
+    font-size: 1.2rem;
+    color: #003333;
+}
+
+header .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+header .btn-outline-light {
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+header .btn-outline-light:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+section {
+    padding: 60px 0;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #0056b3;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important;
+}
+
+form .form-control,
+button {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.alert {
+    border-radius: 5px;
+}
+
+/* Styling untuk tabel */
+table.table-bordered  {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+td img {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk tombol */
+.btn-warning {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e6b800;
+}
+
+.btn-danger {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #e60000;
+}
+
+/* Responsive table */
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
